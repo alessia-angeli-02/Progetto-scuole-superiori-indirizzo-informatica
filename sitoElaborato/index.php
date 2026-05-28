@@ -152,7 +152,7 @@
 					?>
 					<div id="map"></div>
 			    <script
-			      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjCVPl9nWZ8X-bLrg3bzqJKLypnaDTDAg&callback=initMap&libraries=&v=weekly"
+			      src="https://maps.googleapis.com/maps/api/js?key=insertKey&callback=initMap&libraries=&v=weekly"
 			      async
 			    ></script>
 				</div>
