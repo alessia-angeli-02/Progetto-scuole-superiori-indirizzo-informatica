@@ -1,0 +1,15 @@
+CREATE TABLE utenti(
+    ID_utente INT AUTO_INCREMENT,
+    username VARCHAR(10) NOT NULL,
+    password VARCHAR(256) NOT NULL,
+    PRIMARY KEY(ID_utente)
+    )
+
+password_hash($password,PASSWORD_DEFAULT)
+password: ghty672N, mmpa904E, 890aaFR4, 9014TYjn
+
+INSERT INTO `utenti`(`username`, `password`) VALUES 
+('giudice1','$2y$10$xGNvH8Oo/5QXBTzhWX6zz.pjjf/MZ73atsvkZl1nKfJWXZo2lSEEC'),
+('giudice2','$2y$10$EYdQEscnhoZLYd481WIxIOlfnPRXpJsL8MZgBUnohvdO.De2NKY72'),
+('giudice3','$2y$10$MqPOr8oz6mz8r2P.notNWe6d8JPgMPOmJj27RNFMOZeSPJz06Kzvi'),
+('giudice4','$2y$10$5eiH9/5XEh0GQuqfOwLl9eF8yFfuDka.13INO6MYuf55Mn3BAvkJO')
